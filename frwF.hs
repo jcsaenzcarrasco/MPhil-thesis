@@ -1,3 +1,4 @@
+-- ~~~~~~~~~~ Purely functional FRW, lazy non path-tracking
 module Main where
 
 import Nilsson 
