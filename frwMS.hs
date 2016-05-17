@@ -1,3 +1,4 @@
+-- ~~~~~~~~~~ Monadic FRW, strict non path-tracking
 module Main where 
 
 import Nilsson 
