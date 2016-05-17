@@ -276,7 +276,6 @@ mixListsPairs (x:xs) y =  mixLP x y : mixListsPairs xs (drop (length x) y)
  where 
     mixLP   []      _   = [] 
     mixLP   [x]     _   = [(x,2,1)]
---    mixLP [x] (y:ys)    = (x, fst y, snd y) : []
     mixLP (x:xs) (y:ys) = (x, fst y, snd y) : mixLP xs ys 
 
 -- ~~~~~~~~ Unit and Zero elements for choose and join operations ~~~~~
