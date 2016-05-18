@@ -2,7 +2,7 @@
 module Main where
 
 import Nilsson 
-import Data.Array 
+import Data.Aray 
 import Data.Graph 
 import System.Environment 
 import System.IO 
